@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/crowdstrike/gofalcon/falcon/models"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon/models"
 )
 
 // GetCredentialsMixin0Mixin60Reader is a Reader for the GetCredentialsMixin0Mixin60 structure.

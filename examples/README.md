@@ -32,11 +32,11 @@ Many of the examples are useful and valuable as a stand-alone tools. The followi
 ### Installation using local golang install
 
 ```
-go get -u github.com/crowdstrike/gofalcon/examples/...
+go get -u github.com/NicolaeMihalache-RecoLab/gofalcon/examples/...
 ```
 
 ### Installation using packaging system (rpm/deb)
 
 ```
-curl -sSfL https://raw.githubusercontent.com/crowdstrike/gofalcon/main/examples/install | sudo sh -s
+curl -sSfL https://raw.githubusercontent.com/NicolaeMihalache-RecoLab/gofalcon/main/examples/install | sudo sh -s
 ```

@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/crowdstrike/gofalcon/falcon/models"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon/models"
 )
 
 // GetSampleV2Reader is a Reader for the GetSampleV2 structure.

@@ -17,7 +17,7 @@ arch=$(
 )
 
 latest_package_urls() {
-    curl -s https://api.github.com/repos/crowdstrike/gofalcon/releases/latest | grep '"browser_download_url":' | sed 's/"$//g ; s/^.*browser_download_url": "//g'
+    curl -s https://api.github.com/repos/NicolaeMihalache-RecoLab/gofalcon/releases/latest | grep '"browser_download_url":' | sed 's/"$//g ; s/^.*browser_download_url": "//g'
 }
 
 case "${os}" in

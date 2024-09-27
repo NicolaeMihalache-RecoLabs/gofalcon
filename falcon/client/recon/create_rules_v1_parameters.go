@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/crowdstrike/gofalcon/falcon/models"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon/models"
 )
 
 // NewCreateRulesV1Params creates a new CreateRulesV1Params object,

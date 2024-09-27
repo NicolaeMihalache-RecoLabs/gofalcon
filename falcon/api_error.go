@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/crowdstrike/gofalcon/falcon/models"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon/models"
 	"golang.org/x/oauth2"
 )
 

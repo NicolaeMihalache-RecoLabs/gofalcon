@@ -9,13 +9,13 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/crowdstrike/gofalcon/falcon"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/crowdstrike/gofalcon/falcon/client"
-	"github.com/crowdstrike/gofalcon/falcon/client/ioc"
-	"github.com/crowdstrike/gofalcon/falcon/models"
-	"github.com/crowdstrike/gofalcon/pkg/falcon_util"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon/client"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon/client/ioc"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon/models"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/pkg/falcon_util"
 )
 
 // getCrowdstrikeIOCs returns a list of all the Custom IOC values in the system

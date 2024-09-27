@@ -5,7 +5,7 @@ Minimalist example to show case listing of the supported Linux kernels. The tool
 ## Installation
 
 ```
-go get github.com/crowdstrike/gofalcon/examples/falcon_supported_kernels
+go get github.com/NicolaeMihalache-RecoLab/gofalcon/examples/falcon_supported_kernels
 ```
 
 ## Example Run

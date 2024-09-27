@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/crowdstrike/gofalcon/falcon"
-	"github.com/crowdstrike/gofalcon/falcon/client"
-	"github.com/crowdstrike/gofalcon/falcon/client/custom_ioa"
-	"github.com/crowdstrike/gofalcon/falcon/models"
-	"github.com/crowdstrike/gofalcon/pkg/falcon_util"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon/client"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon/client/custom_ioa"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon/models"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/pkg/falcon_util"
 )
 
 func main() {

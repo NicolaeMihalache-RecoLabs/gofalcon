@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/crowdstrike/gofalcon/falcon"
-	"github.com/crowdstrike/gofalcon/falcon/client/falcon_container"
-	"github.com/crowdstrike/gofalcon/pkg/falcon_util"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/falcon/client/falcon_container"
+	"github.com/NicolaeMihalache-RecoLab/gofalcon/pkg/falcon_util"
 )
 
 func main() {

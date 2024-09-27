@@ -5,7 +5,7 @@ Minimalist example to show download of CrowdStrike Falcon Sensor through API. Th
 ## Installation
 
 ```
-go get github.com/crowdstrike/gofalcon/examples/falcon_sensor_download
+go get github.com/NicolaeMihalache-RecoLab/gofalcon/examples/falcon_sensor_download
 ```
 
 ## Example Run
