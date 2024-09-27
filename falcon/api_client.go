@@ -71,7 +71,7 @@ func clientCredentialsHTTPClient(ac *ApiConfig) *http.Client {
 	config := clientcredentials.Config{
 		ClientID:     ac.ClientId,
 		ClientSecret: ac.ClientSecret,
-		TokenURL:     "https://" + ac.Host() + "/oauth2/token",
+		TokenURL:     ac.Host() + "/oauth2/token",
 	}
 
 	if ac.MemberCID != "" {

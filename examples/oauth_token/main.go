@@ -27,7 +27,7 @@ func main() {
 	config := clientcredentials.Config{
 		ClientID:     *clientId,
 		ClientSecret: *clientSecret,
-		TokenURL:     "https://" + falcon.Cloud(*clientCloud).Host() + "/oauth2/token",
+		TokenURL:     falcon.Cloud(*clientCloud).Host() + "/oauth2/token",
 	}
 	token, err := config.Token(context.Background())
 	if err != nil {
